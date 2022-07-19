@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="catalog_20049085.css" type="text/css"?>
+<GiftCardStore xsi:noNamespaceSchemaLocation="catalog_20049085.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <StoreHeader>
+        <Logo>
+            <LogoContent/>
+        </Logo>
+        <Navbar>
+            <NavElement>Home</NavElement>
+            <NavElement>EGifts</NavElement>
+            <NavElement>Brand</NavElement>
+            <NavElement>Wishlist</NavElement>
+            <NavElement>Contacts</NavElement>
+        </Navbar>
+        <UserCredentials>
+            <UserCredential>Log-In</UserCredential>
+            <UserCredential>Sign-Up</UserCredential>
+        </UserCredentials>
+    </StoreHeader>
+
+    <StoreIntroduction>
+        <SearchList>
+            Search for Gift Cards
+            <search />
+        </SearchList>
+    </StoreIntroduction>
+
+
+    <StoreImage>
+        <StoreTitle>Send a gift Card</StoreTitle>
+        <StoreSubTitle>In three simple steps</StoreSubTitle>
+        <StoreDetails>
+            <StoreElement>
+                <ElementImg id="select" />
+                <ElementName>Select a Card</ElementName>
+                <ElementDescription>Choose one or more gift cards from our range, along wit the value you wish to load.</ElementDescription>
+            </StoreElement>
+            <StoreElement>
+                <ElementImg id="send" />
+                <ElementName>Gift a Card</ElementName>
+                <ElementDescription>Enter your delivery details with personal messages to your loved ones.</ElementDescription>
+            </StoreElement>
+            <StoreElement>
+                <ElementImg id="enjoy" />
+                <ElementName>Spread Love</ElementName>
+                <ElementDescription>Then its time for your lucky recipient to decide where and what to spend on, endlessly.</ElementDescription>
+            </StoreElement>
+        </StoreDetails>
+    </StoreImage>
+
+    <GiftCards>
+
+        <GiftCard cardID="GC-01">
+            <CardImage>
+                <CardPicture id="Amazon" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">Amazon</CardName>
+                <Price actualCost="52.5">50</Price>
+                <StartingDate>2022-01-20</StartingDate>
+                <ValidTill extendable="true">Upto 2 year</ValidTill>
+                <Company store="Retail">Multinational</Company>
+                <Region>Global</Region>
+                <NumberOfCards>125</NumberOfCards>
+                <NumberOfUser numberofSharers="3">5</NumberOfUser>
+                <Customizable>false</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-02">
+            <CardImage>
+                <CardPicture id="Apple" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">Apple</CardName>
+                <Price actualCost="100.50">100</Price>
+                <StartingDate>2022-10-10</StartingDate>
+                <ValidTill extendable="true">Upto 2 year</ValidTill>
+                <Company store="Retail">Multinational</Company>
+                <Region>America</Region>
+                <NumberOfCards>150</NumberOfCards>
+                <NumberOfUser numberofSharers="3">50</NumberOfUser>
+                <Customizable>true</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-03">
+            <CardImage>
+                <CardPicture id="Netflix" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="Apple">Netflix</CardName>
+                <Price actualCost="52.50">30</Price>
+                <StartingDate>2022-01-20</StartingDate>
+                <ValidTill extendable="true">Upto 1 year</ValidTill>
+                <Company store="Retail">Entertaintment Services</Company>
+                <Region>Global</Region>
+                <NumberOfCards>120</NumberOfCards>
+                <NumberOfUser numberofSharers="3">5</NumberOfUser>
+                <Customizable>false</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-04">
+            <CardImage>
+                <CardPicture id="Nike" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">Nike</CardName>
+                <Price actualCost="52.50">250</Price>
+                <StartingDate>2022-10-20</StartingDate>
+                <ValidTill extendable="true">Upto 2 year</ValidTill>
+                <Company store="Retail">Athletic Apparel</Company>
+                <Region>Australia</Region>
+                <NumberOfCards>200</NumberOfCards>
+                <NumberOfUser numberofSharers="3">50</NumberOfUser>
+                <Customizable>true</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-05">
+            <CardImage>
+                <CardPicture id="PUBG" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">PUBG</CardName>
+                <Price actualCost="52.50">150</Price>
+                <StartingDate>2022-03-10</StartingDate>
+                <ValidTill extendable="true">Upto 1 year</ValidTill>
+                <Company store="Retail">Online game</Company>
+                <Region>America</Region>
+                <NumberOfCards>500</NumberOfCards>
+                <NumberOfUser numberofSharers="3">100</NumberOfUser>
+                <Customizable>true</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-06">
+            <CardImage>
+                <CardPicture id="Spotify" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">Spotify</CardName>
+                <Price actualCost="52.50">60</Price>
+                <StartingDate>2022-02-28</StartingDate>
+                <ValidTill extendable="true">Upto 6 months</ValidTill>
+                <Company store="Retail">Music Streaming</Company>
+                <Region>Global</Region>
+                <NumberOfCards>200</NumberOfCards>
+                <NumberOfUser numberofSharers="3">150</NumberOfUser>
+                <Customizable>true</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-07">
+            <CardImage>
+                <CardPicture id="Sephora" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">Sephora</CardName>
+                <Price actualCost="52.50">100</Price>
+                <StartingDate>2022-12-20</StartingDate>
+                <ValidTill extendable="true">Upto 3 months</ValidTill>
+                <Company store="Retail">French Multinational</Company>
+                <Region>Global</Region>
+                <NumberOfCards>200</NumberOfCards>
+                <NumberOfUser numberofSharers="3">100</NumberOfUser>
+                <Customizable>false</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-08">
+            <CardImage>
+                <CardPicture id="VictoriasSecret" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">Victorias Secret</CardName>
+                <Price actualCost="52.50">100</Price>
+                <StartingDate>2022-01-25</StartingDate>
+                <ValidTill extendable="true">Upto 6 months</ValidTill>
+                <Company store="Retail">American Beauty</Company>
+                <Region>Global</Region>
+                <NumberOfCards>125</NumberOfCards>
+                <NumberOfUser numberofSharers="3">10</NumberOfUser>
+                <Customizable>true</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-09">
+            <CardImage>
+                <CardPicture id="ULTABeauty" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">ULTA BEAUTY</CardName>
+                <Price actualCost="52.50">50</Price>
+                <StartingDate>2022-02-25</StartingDate>
+                <ValidTill extendable="true">Upto 1 year</ValidTill>
+                <Company store="Retail">Beauty Retailer</Company>
+                <Region>Australia</Region>
+                <NumberOfCards>130</NumberOfCards>
+                <NumberOfUser numberofSharers="3">50</NumberOfUser>
+                <Customizable>true</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-10">
+            <CardImage>
+                <CardPicture id="HappyBirthday" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">Happy Birthday</CardName>
+                <Price actualCost="52.50">50</Price>
+                <StartingDate>2022-03-05</StartingDate>
+                <ValidTill extendable="true">Upto 2 years</ValidTill>
+                <Company store="Retail">HBD</Company>
+                <Region>Global</Region>
+                <NumberOfCards>200</NumberOfCards>
+                <NumberOfUser numberofSharers="3">50</NumberOfUser>
+                <Customizable>true</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-11">
+            <CardImage>
+                <CardPicture id="PlayStation" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">Play Station</CardName>
+                <Price actualCost="52.50">50</Price>
+                <StartingDate>2022-02-08</StartingDate>
+                <ValidTill extendable="true">Upto 3 years</ValidTill>
+                <Company store="Retail">Sony Interactive</Company>
+                <Region>Global</Region>
+                <NumberOfCards>250</NumberOfCards>
+                <NumberOfUser numberofSharers="3">100</NumberOfUser>
+                <Customizable>false</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-12">
+            <CardImage>
+                <CardPicture id="EBay" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">ebay</CardName>
+                <Price actualCost="52.50">10</Price>
+                <StartingDate>2022-05-15</StartingDate>
+                <ValidTill extendable="true">Upto 2 years</ValidTill>
+                <Company store="Retail">Commerce</Company>
+                <Region>Global</Region>
+                <NumberOfCards>150</NumberOfCards>
+                <NumberOfUser numberofSharers="3">20</NumberOfUser>
+                <Customizable>true</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-13">
+            <CardImage>
+                <CardPicture id="HnM" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">H n M</CardName>
+                <Price actualCost="52.50">25</Price>
+                <StartingDate>2022-11-28</StartingDate>
+                <ValidTill extendable="true">Upto 1 year</ValidTill>
+                <Company store="Retail">Multinational clothing</Company>
+                <Region>America</Region>
+                <NumberOfCards>130</NumberOfCards>
+                <NumberOfUser numberofSharers="3">20</NumberOfUser>
+                <Customizable>true</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-14">
+            <CardImage>
+                <CardPicture id="DOTA2" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">DOTA 2</CardName>
+                <Price actualCost="52.50">20</Price>
+                <StartingDate>2022-06-05</StartingDate>
+                <ValidTill extendable="true">Upto 1 year</ValidTill>
+                <Company store="Retail">Steam</Company>
+                <Region>Global</Region>
+                <NumberOfCards>150</NumberOfCards>
+                <NumberOfUser numberofSharers="3">60</NumberOfUser>
+                <Customizable>false</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-15">
+            <CardImage>
+                <CardPicture id="FORTNITE" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">FORTNITE</CardName>
+                <Price actualCost="52.50">100</Price>
+                <StartingDate>2022-03-22</StartingDate>
+                <ValidTill extendable="true">Upto 1 year</ValidTill>
+                <Company store="Retail">Epic Games</Company>
+                <Region>Global</Region>
+                <NumberOfCards>200</NumberOfCards>
+                <NumberOfUser numberofSharers="3">100</NumberOfUser>
+                <Customizable>true</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+        <GiftCard cardID="GC-16">
+            <CardImage>
+                <CardPicture id="Forever21" />
+            </CardImage>
+            <CardAttributes>
+                <CardName label="AMZN">Forever 21</CardName>
+                <Price actualCost="52.50">25</Price>
+                <StartingDate>2022-02-23</StartingDate>
+                <ValidTill extendable="true">Upto 1 years</ValidTill>
+                <Company store="Retail">Fashion Retailer</Company>
+                <Region>Global</Region>
+                <NumberOfCards>150</NumberOfCards>
+                <NumberOfUser numberofSharers="3">10</NumberOfUser>
+                <Customizable>false</Customizable>
+            </CardAttributes>
+        </GiftCard>
+
+
+    </GiftCards>
+
+    <Conclusion>
+        <ConclusionTitle>
+            "Trusted Gift Cards Website"
+        </ConclusionTitle>
+        <ConclusionImages>
+            <Images id="Netflixicon"></Images>
+            <Images id="Spotifyicon"></Images>
+            <Images id="Nikeicon"></Images>
+            <Images id="Amazonicon"></Images>
+            <Images id="Appleicon"></Images>
+            <Images id="Pubgicon"></Images>
+            <Images id="Beautyicon"></Images>
+            <Images id="Makeovericon"></Images>
+        </ConclusionImages>
+    </Conclusion>
+
+    <footer>
+        <footerelements>
+            <footertitle>XO.com</footertitle>
+            <footerelementings>About</footerelementings>
+            <footerelementings>Blog</footerelementings>
+        </footerelements>
+        <footerelementing>
+            <footertitle>Send Gifts To</footertitle>
+            <footerelement>
+                <footericon id="India" />
+                India
+            </footerelement>
+            <footerelement>
+                <footericon id="Germany" />
+                Germany
+            </footerelement>
+            <footerelement>
+                <footericon id="Russia" />
+                Russia
+            </footerelement>
+        </footerelementing>
+        <footerelementing>
+            <footertitle>Support Us</footertitle>
+            <footerelement>
+                <footericon />
+                Help
+            </footerelement>
+            <footerelement>
+                <footericon />
+                How to Use
+            </footerelement>
+            <footerelement>
+                <footericon />
+                support@xo.com
+            </footerelement>
+        </footerelementing>
+        <footerelementing>
+            <footertitle>Follow Us</footertitle>
+            <footerelement>
+                <footericon id="Facebook" />
+                Facebook
+            </footerelement>
+            <footerelement>
+                <footericon id="Instagram" />
+                Instagram
+            </footerelement>
+            <footerelement>
+                <footericon id="Twitter" />
+                twitter
+            </footerelement>
+        </footerelementing>
+        <footerlanguages>
+            <footerlanugage>English</footerlanugage>
+            <footerlanugage>German</footerlanugage>
+            <footerlanugage>French</footerlanugage>
+        </footerlanguages>
+    </footer>
+
+</GiftCardStore>

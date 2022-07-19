@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    background: #ebdef6;
+    display: block;
+    background: url(bg.gif);
+}
+
+GiftCardStore{
+    padding: 2rem 4rem;
+}
+
+StoreHeader{
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+      
+}
+
+LogoContent {
+    width: 57px;
+    height: 65px;
+    background: url(/xologo.png)
+}
+
+SearchList {
+    display: flex;
+    background: #fff;
+    width: 35%;
+    margin: auto;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px 0 20px 25px;
+    border-radius: 20px;
+}
+
+search {
+    background: url(Search_Icon.png);
+    width: 20px;
+    height: 20px;
+    margin-left: 220px;
+}
+
+LogoContent {
+    background-color: rgba(138, 60, 135, 0.945);
+    padding: 10px 15px;
+    border-radius: 20px;
+    
+}
+
+Navbar{
+    display: flex;   
+    box-sizing: border-box; 
+}
+
+NavElement{
+    margin: 0 25px;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 2;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+NavElement::after{
+    position: absolute;
+    content:'';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #d381b3;
+    opacity:0.4;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    position: absolute;
+}
+
+NavElement:hover{
+    color: black;
+
+}
+
+NavElement:hover::after{
+    width: 100%;
+}
+
+UserCredentials{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+UserCredential{
+    font-size: 1.1rem;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+UserCredential::after{
+    content: '';
+    width: 0%;
+    height: 3.5px;
+    background-color: rgba(195, 95, 179, 0.945);
+    display: block;
+    margin:auto;
+    transition: 0.5s ease-out;
+}
+
+UserCredential:hover::after{
+    width: 100%;
+}
+
+SerachList{
+    margin: 2rem auto;
+    background-color:rgb(251, 251, 251);
+    border-radius: 7px;
+    width: 35%;
+    padding: 10px 15px;
+}
+
+StoreImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;    
+}
+
+StoreTitle,StoreSubTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+StoreTitle {
+    font-size: 1.8rem;
+}
+
+StoreSubTitle {
+    font-size: 1.2rem;
+}
+
+StoreDetails {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+StoreElement {
+    margin: 30px;
+}
+
+ElementImg {
+    width: 64px;
+    height: 64px;
+    margin:auto;
+}
+
+ElementImg:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 0.5s ease;
+}
+
+ElementName,ElementDescription {
+    text-align: center;
+}
+
+ElementName {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#select {
+    background: url(select.png);
+}
+
+#send {
+    background: url(gift.png);
+}
+
+#enjoy {
+    background: url(love.png);
+}
+
+GiftCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+GiftCard:hover {
+    box-shadow: rgba(218, 36, 96, 0.705) 0px 2px 4px 0px, rgb(211, 25, 195) 0px 2px 50px 0px;
+    transform:scale(1.1);
+    transition: 0.1s ease-in-out; 
+}
+
+GiftCard{
+    border: #dd90d9 2px solid;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    margin-bottom: 30px;
+    height: 395px;
+}
+
+CardImage{
+    display: flex;
+    border: 2px rgba(241, 155, 183, 0.945) solid;
+    height: 355px;
+    width: 265px;
+    background-color: rgba(212, 167, 211, 0.945);
+    padding: 1rem;
+    border-radius: 20px;
+} 
+
+CardPicture{
+    border: 2px solid rgb(10, 10, 10);
+    height: 320px;
+    width: 230px;
+    background: no-repeat;
+    border-radius: 10px;
+}
+
+#Amazon{
+    background:url(Amazon_Card.jpg)
+}
+
+#Apple {
+    background: url(Apple_Card.jpg);
+}
+
+#Netflix{
+    background:url(Netflix_Card.png)
+}
+
+#Nike{
+    background:url(Nike_Card.jpg)
+}
+
+#PUBG{
+    background:url(PUBG_Card.jpg)
+}
+
+#Spotify{
+    background:url(Spotify_Card.jpg)
+}
+
+#Sephora{
+    background:url(Sephora_Card.jpg)
+}
+
+#VictoriasSecret{
+    background:url(Victoria_Card.jpg)
+}
+
+#ULTABeauty{
+    background:url(ULTA_Card.jpg)
+}
+
+#HappyBirthday{
+    background:url(HBD_Card.jpg)
+}
+
+#PlayStation{
+    background:url(PS_Card.jpg)
+}
+
+#EBay{
+    background:url(Ebay_Card.jpg)
+}
+
+#HnM{
+    background:url(H&M_Card.jpg)
+}
+
+#DOTA2{
+    background:url(Dota_Card.jpg)
+}
+
+#FORTNITE{
+    background:url(Fortnite_Card.jpg)
+}
+
+#Forever21{
+    background:url(/forever21_Card.jpg)
+}
+
+CardAttributes{
+    font-size: 1.1rem;
+    padding: 15px 0px 10px 18px ;
+    line-height: 200%;
+}
+
+ConclusionTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+ConclusionImages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+Images {
+    width: 64px;
+    height: 64px;
+    display: block;
+}
+
+#Netflixicon {
+    background: url(netflixlogo.png);
+}
+
+#Beautyicon {
+    background: url(/cosmeticslogo.png);
+}
+
+#Spotifyicon {
+    background: url(spotifylogo.png);
+}
+
+#Nikeicon {
+    background: url(nikelogo.png);
+}
+
+#Amazonicon {
+    background: url(amazonlogo.png);
+}
+
+#Appleicon {
+    background: url(/appleicon.png);
+}
+
+#Pubgicon {
+    background: url(pubglogo.png);
+}
+
+#Makeovericon {
+    background: url(/steamlogo.png);
+}
+
+CardName::before{
+    content: 'Card Name: ';
+    font-weight: bold;
+}
+
+Price::before{
+    content: 'Price: $';
+    font-weight: bold;
+}
+
+StartingDate::before{
+    content: 'Starting Date: ';
+    font-weight: bold;
+}
+
+ValidTill::before{
+    content: 'Valid Till: ';
+    font-weight: bold;
+}
+
+Company::before{
+    content: 'Company: ';
+    font-weight: bold;
+}
+
+Region::before{
+    content: 'Region: ';
+    font-weight: bold;
+}
+
+NumberOfCards::before{
+    content: 'Number Of Cards: ';
+    font-weight: bold;
+}
+
+NumberOfUser::before{
+    content: 'Number Of User: ';
+    font-weight: bold;
+}
+
+Customizable::before{
+    content: 'Customizable: ';
+    font-weight: bold;
+}
+
+ConclusionTitle {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+Images:hover{
+    cursor: pointer;
+    transform:scale(1.40);
+    transition: 0.3s ease-in-out; 
+}
+
+footer {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+footertitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footertitle, footerelement,footerelementing, footerelementings {
+    padding: 5px 0;
+}
+
+footerelement {
+    display: flex;
+}
+
+footericon {
+    width: 32px;
+    height: 32px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+footerelementings, footerelementing, footerelement{
+    text-align: center;
+}
+
+footerlanguages {
+    margin-top: 15px;
+}
+
+footerlanugage {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#India {
+    background:url(India_Flag.png);
+}
+
+#Germany {
+    background: url(Germany_Flag.png);
+}
+
+#Russia {
+    background: url(Russia_Flag.png);
+}
+
+#Facebook {
+    background: url(Facebook_Logo.png);
+}
+
+#Instagram {
+    background: url(Instagram_Logo.png);
+}
+
+#Twitter {
+    background: url(Twitter_Logo.png);
+}
+
+footerItem{
+  padding: 5px 0 8px 10px;
+}
+
+footerLanguage {
+  border: 1px black solid;
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left:10px;
+}
+
+footerTitle{
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+Template{
+  width:100%;
+  margin-top: 40px;
+  background-color: antiquewhite;
+}
+
+Download{
+
+  display: inline-block;
+  padding-left: 120px;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px 30px;
+}
+
+
+DownloadIcon{
+  float : right;
+  margin:30px 30px;
+  margin-right: 250px;
+  border: 2px rgba(204, 167, 203, 0.945) solid;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: rgba(204, 167, 203, 0.945);
+}
